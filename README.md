@@ -1,8 +1,5 @@
-# node-express-vercel
-Hosting express node project on vercel
+Total Supply
+https://express-vercel-lemon-ten.vercel.app/totalSupply
 
-### Video
-> https://youtu.be/vCuf62T2snY
-
-### Deployed on
-> https://node-express-vercel-rose.vercel.app/home
+Circulation Supply
+https://express-vercel-lemon-ten.vercel.app/circulationSupply
