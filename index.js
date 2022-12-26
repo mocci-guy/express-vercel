@@ -1,13 +1,15 @@
 // Import packages
 const express = require("express");
-const home = require("./routes/home");
+const totalSupply = require("./routes/totalSupply");
+const circulationSupply = require("./routes/circulationSupply");
 
 // Middlewares
 const app = express();
 app.use(express.json());
 
 // Routes
-app.use("/home", home);
+app.use("/totalSupply", totalSupply);
+app.use("/circulationSupply", circulationSupply);
 
 // connection
 const port = process.env.PORT || 9001;
